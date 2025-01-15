@@ -8,13 +8,18 @@
   padding-top: 30px;
 }
 
+.calculator-wrapper {
+  width: 300px;
+  background-color: #1d1616;
+}
+
 .calculator-btns {
-  width: 550px;
+  width: 250px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 50px 50px 50px 50px 50px;
   gap: 10px;
-  margin-left: 50px;
+  margin-left: 25px;
   margin-bottom: 10px;
   padding-bottom: 20px;
 }
@@ -25,19 +30,14 @@
 }
 
 #calculator-input {
-  width: 600px;
+  width: 250px;
   padding: 10px;
-  margin: 25px;
   font-size: 22px;
+  margin: 30px 10px 30px 25px;
 }
 
 input {
   text-align: right;
-}
-
-.calculator-wrapper {
-  width: 650px;
-  background-color: #1d1616;
 }
 
 .btn-danger {
